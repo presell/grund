@@ -482,7 +482,7 @@ function PlasmicAlertsRobe__RenderFunc(props: {
                         "font-rethink-medium"
                       )}
                     >
-                      {"Black Friday Alerts"}
+                      {"Black Friday Deals"}
                     </div>
                   ) : null}
                   <GrundHightlightSvgIcon
@@ -520,9 +520,7 @@ function PlasmicAlertsRobe__RenderFunc(props: {
                       >
                         {"Early Access: "}
                       </span>
-                      <React.Fragment>
-                        {"Get notified when deals go live!"}
-                      </React.Fragment>
+                      <React.Fragment>{"Save 50% Now!"}</React.Fragment>
                     </React.Fragment>
                   </div>
                 ) : null}
@@ -1262,40 +1260,6 @@ function PlasmicAlertsRobe__RenderFunc(props: {
                       $steps["updatePhone"] = await $steps["updatePhone"];
                     }
 
-                    $steps["updateForm"] = true
-                      ? (() => {
-                          const actionArgs = {
-                            variable: {
-                              objRoot: $state,
-                              variablePath: ["form"]
-                            },
-                            operation: 0,
-                            value: 3
-                          };
-                          return (({
-                            variable,
-                            value,
-                            startIndex,
-                            deleteCount
-                          }) => {
-                            if (!variable) {
-                              return;
-                            }
-                            const { objRoot, variablePath } = variable;
-
-                            $stateSet(objRoot, variablePath, value);
-                            return value;
-                          })?.apply(null, [actionArgs]);
-                        })()
-                      : undefined;
-                    if (
-                      $steps["updateForm"] != null &&
-                      typeof $steps["updateForm"] === "object" &&
-                      typeof $steps["updateForm"].then === "function"
-                    ) {
-                      $steps["updateForm"] = await $steps["updateForm"];
-                    }
-
                     $steps["runCode"] = true
                       ? (() => {
                           const actionArgs = {
@@ -1399,6 +1363,81 @@ function PlasmicAlertsRobe__RenderFunc(props: {
                       typeof $steps["runCode2"].then === "function"
                     ) {
                       $steps["runCode2"] = await $steps["runCode2"];
+                    }
+
+                    $steps["updateForm"] = false
+                      ? (() => {
+                          const actionArgs = {
+                            variable: {
+                              objRoot: $state,
+                              variablePath: ["form"]
+                            },
+                            operation: 0,
+                            value: 3
+                          };
+                          return (({
+                            variable,
+                            value,
+                            startIndex,
+                            deleteCount
+                          }) => {
+                            if (!variable) {
+                              return;
+                            }
+                            const { objRoot, variablePath } = variable;
+
+                            $stateSet(objRoot, variablePath, value);
+                            return value;
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      $steps["updateForm"] != null &&
+                      typeof $steps["updateForm"] === "object" &&
+                      typeof $steps["updateForm"].then === "function"
+                    ) {
+                      $steps["updateForm"] = await $steps["updateForm"];
+                    }
+
+                    $steps[
+                      "goToHttpsLivegrundComProductsOrganicTurkishCottonRobeUtmReferralAdbuy"
+                    ] = true
+                      ? (() => {
+                          const actionArgs = {
+                            destination:
+                              "https://livegrund.com/products/organic-turkish-cotton-robe?utm_referral=adbuy"
+                          };
+                          return (({ destination }) => {
+                            if (
+                              typeof destination === "string" &&
+                              destination.startsWith("#")
+                            ) {
+                              document
+                                .getElementById(destination.substr(1))
+                                .scrollIntoView({ behavior: "smooth" });
+                            } else {
+                              __nextRouter?.push(destination);
+                            }
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      $steps[
+                        "goToHttpsLivegrundComProductsOrganicTurkishCottonRobeUtmReferralAdbuy"
+                      ] != null &&
+                      typeof $steps[
+                        "goToHttpsLivegrundComProductsOrganicTurkishCottonRobeUtmReferralAdbuy"
+                      ] === "object" &&
+                      typeof $steps[
+                        "goToHttpsLivegrundComProductsOrganicTurkishCottonRobeUtmReferralAdbuy"
+                      ].then === "function"
+                    ) {
+                      $steps[
+                        "goToHttpsLivegrundComProductsOrganicTurkishCottonRobeUtmReferralAdbuy"
+                      ] =
+                        await $steps[
+                          "goToHttpsLivegrundComProductsOrganicTurkishCottonRobeUtmReferralAdbuy"
+                        ];
                     }
                   }}
                 >
