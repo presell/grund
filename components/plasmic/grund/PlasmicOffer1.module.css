@@ -1,0 +1,232 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  box-shadow: none;
+  justify-self: flex-start;
+  padding: 8px;
+  border: 5px solid #e4e4da;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding: 0px;
+  }
+}
+.freeBox__cd637 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__cd637 {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+.freeBox__nnes4 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-right: 30px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__nnes4 {
+    margin-right: 0px;
+    height: auto;
+  }
+}
+.img__iFZh8 {
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  width: auto;
+  height: 423px;
+  margin-right: 0;
+  flex-shrink: 0;
+}
+.img__iFZh8 > picture > img {
+  object-fit: contain;
+}
+.freeBox__kiNxp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.offerH1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  padding-bottom: 0px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSlot3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f62929;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot3 {
+    font-size: 23px;
+  }
+}
+.offerH12 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSlot4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #202428;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot4 {
+    font-size: 14px;
+  }
+}
+.freeBox__hjio {
+  position: relative;
+  width: 350px;
+  height: auto;
+  max-width: 800px;
+  margin-bottom: 25px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__hjio {
+    width: 225px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+}
+.slotTargetSlot5 {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot5 {
+    font-size: 12px;
+  }
+}
+.freeBox__jZcSi {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSlot6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+.freeBox__ptpaU {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__pHRp1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+  width: 90px;
+  margin-right: 25px;
+  flex-shrink: 0;
+  padding: 8px 0px;
+}
+.img__m6IO {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.img__m6IO > picture > img {
+  object-fit: cover;
+}
+.text__lxrAj {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #626262;
+  min-width: 0;
+}
+.freeBox__vJ0Pt {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: auto;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 8px 0px;
+}
+.img__lnbp2 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.img__lnbp2 > picture > img {
+  object-fit: cover;
+}
+.text__iiAu {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #626262;
+  min-width: 0;
+}

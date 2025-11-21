@@ -9,10 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@plasmicapp/cli": "^0.1.348",
     "@plasmicapp/loader-nextjs": "^1.0.430",
+    "@plasmicapp/react-web": "^0.2.408",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.258",
+    "@plasmicpkgs/plasmic-nav": "^0.0.200",
+    "@plasmicpkgs/plasmic-query": "^0.0.249",
+    "@plasmicpkgs/react-slick": "^0.0.251",
     "next": "14.2.30",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",

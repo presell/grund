@@ -1,0 +1,63 @@
+/* eslint-disable */
+/* tslint:disable */
+// @ts-nocheck
+/* prettier-ignore-start */
+import React from "react";
+import { classNames } from "@plasmicapp/react-web";
+
+export type _44C55Ab9E76348D3Bbe8Ee81843921EfSvgIconProps =
+  React.ComponentProps<"svg"> & {
+    title?: string;
+  };
+
+export function _44C55Ab9E76348D3Bbe8Ee81843921EfSvgIcon(
+  props: _44C55Ab9E76348D3Bbe8Ee81843921EfSvgIconProps
+) {
+  const { className, style, title, ...restProps } = props;
+  return (
+    <svg
+      xmlns={"http://www.w3.org/2000/svg"}
+      className={classNames(
+        "plasmic-default__svg",
+        className,
+        "payment-icons__icon"
+      )}
+      role={"img"}
+      aria-labelledby={"pi-venmo"}
+      viewBox={"0 0 38 24"}
+      height={"1em"}
+      style={style}
+      {...restProps}
+    >
+      {title && <title>{title}</title>}
+
+      <g fill={"none"} fillRule={"evenodd"}>
+        <rect
+          fillOpacity={".07"}
+          fill={"#000"}
+          width={"38"}
+          height={"24"}
+          rx={"3"}
+        ></rect>
+
+        <path
+          fill={"#3D95CE"}
+          d={
+            "M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"
+          }
+        ></path>
+
+        <path
+          d={
+            "M24.675 8.36c0 3.064-2.557 7.045-4.633 9.84h-4.74L13.4 6.57l4.151-.402 1.005 8.275c.94-1.566 2.099-4.025 2.099-5.702 0-.918-.154-1.543-.394-2.058l3.78-.783c.437.738.634 1.499.634 2.46z"
+          }
+          fill={"#FFF"}
+          fillRule={"nonzero"}
+        ></path>
+      </g>
+    </svg>
+  );
+}
+
+export default _44C55Ab9E76348D3Bbe8Ee81843921EfSvgIcon;
+/* prettier-ignore-end */
