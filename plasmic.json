@@ -541,6 +541,33 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/alerts/robe"
+        },
+        {
+          "id": "gYiLKGz_Ch5E",
+          "name": "Guide",
+          "type": "managed",
+          "projectId": "sMD1pVj9GCeDqp5pGdZGXp",
+          "renderModuleFilePath": "plasmic/grund/PlasmicGuide.tsx",
+          "importSpec": {
+            "modulePath": "../pages/guide.tsx"
+          },
+          "cssFilePath": "plasmic/grund/PlasmicGuide.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/guide"
+        },
+        {
+          "id": "9B-lV6Ip9v_z",
+          "name": "Guide1",
+          "type": "managed",
+          "projectId": "sMD1pVj9GCeDqp5pGdZGXp",
+          "renderModuleFilePath": "plasmic/grund/PlasmicGuide1.tsx",
+          "importSpec": {
+            "modulePath": "Guide1.tsx"
+          },
+          "cssFilePath": "plasmic/grund/PlasmicGuide1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -2425,6 +2452,46 @@
           "id": "LNdWu_olWogE",
           "name": "FlagUSA.svg 2",
           "filePath": "../public/plasmic/grund/images/flagUsaSvg2.svg"
+        },
+        {
+          "id": "2M3cocxAeLuY",
+          "name": "GRUND_logo_white_vector (1).png",
+          "filePath": "../public/plasmic/grund/images/grundLogoWhiteVector1Png.png"
+        },
+        {
+          "id": "qC0X1zr4Bkp7",
+          "name": "guide1.png",
+          "filePath": "../public/plasmic/grund/images/guide1Png.png"
+        },
+        {
+          "id": "drm6hhY-RcQo",
+          "name": "guide2.png",
+          "filePath": "../public/plasmic/grund/images/guide2Png.png"
+        },
+        {
+          "id": "sejNc-q2oT4c",
+          "name": "guide3.png",
+          "filePath": "../public/plasmic/grund/images/guide3Png.png"
+        },
+        {
+          "id": "rUpoLG23ZsJh",
+          "name": "guide4.png",
+          "filePath": "../public/plasmic/grund/images/guide4Png.png"
+        },
+        {
+          "id": "pENGcgUqLOda",
+          "name": "guide5.png",
+          "filePath": "../public/plasmic/grund/images/guide5Png.png"
+        },
+        {
+          "id": "2pYQ-oWqAC4J",
+          "name": "guide6.png",
+          "filePath": "../public/plasmic/grund/images/guide6Png.png"
+        },
+        {
+          "id": "eimFtNKhPDGL",
+          "name": "GRUNDshare.png",
+          "filePath": "../public/plasmic/grund/images/grunDsharePng.png"
         }
       ],
       "indirect": false,
