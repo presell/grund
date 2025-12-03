@@ -310,6 +310,11 @@
   font-weight: 600;
   font-size: 21px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .text___9Zx36 {
+    font-size: 17px;
+  }
+}
 .text__pxSlb {
   font-weight: 600;
   color: #1d3863;
@@ -362,6 +367,11 @@
   font-weight: 600;
   font-size: 21px;
   width: auto;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__x3Dbq {
+    font-size: 17px;
+  }
 }
 .text__j6LfN {
   font-weight: 600;
@@ -416,6 +426,11 @@
   font-size: 21px;
   width: auto;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__dfSts {
+    font-size: 17px;
+  }
+}
 .text__khRtE {
   font-weight: 600;
   color: #1d3863;
@@ -468,6 +483,11 @@
   font-weight: 600;
   font-size: 21px;
   width: auto;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__ho75H {
+    font-size: 17px;
+  }
 }
 .text__bqE5D {
   font-weight: 600;
@@ -522,6 +542,11 @@
   font-size: 21px;
   width: auto;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__d3A7S {
+    font-size: 17px;
+  }
+}
 .text__oM2Wl {
   font-weight: 600;
   color: #1d3863;
@@ -575,6 +600,11 @@
   font-weight: 600;
   font-size: 21px;
   width: auto;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text___2NYzf {
+    font-size: 17px;
+  }
 }
 .text__dlfuT {
   font-weight: 600;
