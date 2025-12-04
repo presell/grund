@@ -111,6 +111,7 @@ export type PlasmicGuide__OverridesType = {
   logo3?: Flex__<typeof PlasmicImg__>;
   p?: Flex__<"p">;
   styles?: Flex__<typeof Embed>;
+  metaPixel?: Flex__<typeof Embed>;
 };
 
 export interface DefaultGuideProps {}
@@ -1412,6 +1413,15 @@ function PlasmicGuide__RenderFunc(props: {
               "\n<style>\n\n\n.shake {\n  animation: shakeLoop 6s infinite ease-in-out;\n}\n\n@keyframes shakeLoop {\n  0%   { transform: translateX(0); }\n  2%   { transform: translateX(-5px); }\n  4%   { transform: translateX(5px); }\n  6%   { transform: translateX(-5px); }\n  8%   { transform: translateX(5px); }\n  10%  { transform: translateX(-5px); }\n  12%  { transform: translateX(5px); }\n  14%  { transform: translateX(0); }\n  100% { transform: translateX(0); }\n}\n\n\n</style>\n\n\n\n\n\n\n<style>\n/* Load-in compatibility class */\n.load-in-compat {\n    transform: translateY(20px);\n    animation: loadInAnimationCompat 0.8s ease-out forwards;\n}\n\n/* Keyframes for the load-in animation */\n@keyframes loadInAnimationCompat {\n    0% {\n        opacity: 0;\n        transform: translateY(20px);\n    }\n    100% {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n</style>\n"
             }
           />
+
+          <Embed
+            data-plasmic-name={"metaPixel"}
+            data-plasmic-override={overrides.metaPixel}
+            className={classNames("__wab_instance", sty.metaPixel)}
+            code={
+              "<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '2302875250034078');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=2302875250034078&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->"
+            }
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1433,7 +1443,8 @@ const PlasmicDescendants = {
     "embedHtml",
     "logo3",
     "p",
-    "styles"
+    "styles",
+    "metaPixel"
   ],
   guide1Draft: ["guide1Draft", "heroHeadline3", "paragraph25"],
   heroHeadline3: ["heroHeadline3"],
@@ -1447,7 +1458,8 @@ const PlasmicDescendants = {
   embedHtml: ["embedHtml"],
   logo3: ["logo3"],
   p: ["p"],
-  styles: ["styles"]
+  styles: ["styles"],
+  metaPixel: ["metaPixel"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1467,6 +1479,7 @@ type NodeDefaultElementType = {
   logo3: typeof PlasmicImg__;
   p: "p";
   styles: typeof Embed;
+  metaPixel: typeof Embed;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1544,6 +1557,7 @@ export const PlasmicGuide = Object.assign(
     logo3: makeNodeComponent("logo3"),
     p: makeNodeComponent("p"),
     styles: makeNodeComponent("styles"),
+    metaPixel: makeNodeComponent("metaPixel"),
 
     // Metadata about props expected for PlasmicGuide
     internalVariantProps: PlasmicGuide__VariantProps,
