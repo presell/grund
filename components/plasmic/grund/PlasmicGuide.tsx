@@ -105,6 +105,8 @@ export type PlasmicGuide__OverridesType = {
   intro?: Flex__<"div">;
   heroHeadline4?: Flex__<"div">;
   heroHeadline5?: Flex__<"div">;
+  heroHeadline6?: Flex__<"div">;
+  heroHeadline7?: Flex__<"div">;
   submitPhonebtn2?: Flex__<"a"> & Partial<LinkProps>;
   footer?: Flex__<"div">;
   embedHtml?: Flex__<typeof Embed>;
@@ -937,15 +939,35 @@ function PlasmicGuide__RenderFunc(props: {
               {"40% Off Online Sale"}
             </div>
             <div
+              data-plasmic-name={"heroHeadline6"}
+              data-plasmic-override={overrides.heroHeadline6}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.heroHeadline6
+              )}
+            >
+              {"SHOP BLUE"}
+            </div>
+            <div
+              data-plasmic-name={"heroHeadline7"}
+              data-plasmic-override={overrides.heroHeadline7}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.heroHeadline7
+              )}
+            >
+              {"SAVE 30%"}
+            </div>
+            <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
                 sty.text__brF5B
               )}
             >
-              {
-                "For a limited-time, we have extended our best deals from Black Friday and Cyber Monday for holiday gift shoppers. Get 40% off sitewide (no minimum order) or 50% off ($500 minimum order) plus free shipping on qualifying orders.\n\nGive the gift of luxury\u2026 without the toxins."
-              }
+              {"Shop our best blue essentials and save 30% today."}
             </div>
             <PlasmicLink__
               data-plasmic-name={"submitPhonebtn2"}
@@ -957,8 +979,11 @@ function PlasmicGuide__RenderFunc(props: {
                 "shake"
               )}
               component={Link}
-              href={"https://livegrund.com/"}
+              href={
+                "https://livegrund.com/collections/shop-by-color-blue?sort_by=best-selling&filter.v.option.color=Asheville+Denim+Blue&filter.v.option.color=Ether+Digital&filter.v.option.color=Herringbone+Ether&filter.v.option.color=Puro+Sea+Blue&filter.v.option.color=Sea+Blue&filter.v.option.color=Starburst+Ether&filter.v.option.color=Starburst+Navy+Peony"
+              }
               platform={"nextjs"}
+              target={"_blank"}
             >
               <div
                 className={classNames(
@@ -967,7 +992,7 @@ function PlasmicGuide__RenderFunc(props: {
                   sty.text__bkYu
                 )}
               >
-                {"Shop Now"}
+                {"Shop Blue"}
               </div>
               <ArrowBigRightSvgIcon
                 className={classNames(projectcss.all, sty.svg__cCpJe)}
@@ -1438,6 +1463,8 @@ const PlasmicDescendants = {
     "intro",
     "heroHeadline4",
     "heroHeadline5",
+    "heroHeadline6",
+    "heroHeadline7",
     "submitPhonebtn2",
     "footer",
     "embedHtml",
@@ -1453,6 +1480,8 @@ const PlasmicDescendants = {
   intro: ["intro", "heroHeadline4"],
   heroHeadline4: ["heroHeadline4"],
   heroHeadline5: ["heroHeadline5"],
+  heroHeadline6: ["heroHeadline6"],
+  heroHeadline7: ["heroHeadline7"],
   submitPhonebtn2: ["submitPhonebtn2"],
   footer: ["footer", "embedHtml", "logo3", "p"],
   embedHtml: ["embedHtml"],
@@ -1473,6 +1502,8 @@ type NodeDefaultElementType = {
   intro: "div";
   heroHeadline4: "div";
   heroHeadline5: "div";
+  heroHeadline6: "div";
+  heroHeadline7: "div";
   submitPhonebtn2: "a";
   footer: "div";
   embedHtml: typeof Embed;
@@ -1551,6 +1582,8 @@ export const PlasmicGuide = Object.assign(
     intro: makeNodeComponent("intro"),
     heroHeadline4: makeNodeComponent("heroHeadline4"),
     heroHeadline5: makeNodeComponent("heroHeadline5"),
+    heroHeadline6: makeNodeComponent("heroHeadline6"),
+    heroHeadline7: makeNodeComponent("heroHeadline7"),
     submitPhonebtn2: makeNodeComponent("submitPhonebtn2"),
     footer: makeNodeComponent("footer"),
     embedHtml: makeNodeComponent("embedHtml"),

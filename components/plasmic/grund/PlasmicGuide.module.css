@@ -652,10 +652,58 @@
   margin-bottom: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
+  display: none;
   padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .heroHeadline5 {
+    animation: none;
+    width: 100%;
+    font-size: 40px;
+    min-width: 0;
+  }
+}
+.heroHeadline6 {
+  animation: none;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: none;
+  font-weight: 700;
+  font-size: 50px;
+  color: #1d3863;
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .heroHeadline6 {
+    animation: none;
+    width: 100%;
+    font-size: 40px;
+    min-width: 0;
+  }
+}
+.heroHeadline7 {
+  animation: none;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: none;
+  font-weight: 700;
+  font-size: 75px;
+  color: #1d3863;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .heroHeadline7 {
     animation: none;
     width: 100%;
     font-size: 40px;
@@ -711,7 +759,7 @@
   font-size: 21px;
   font-style: normal;
   text-align: left;
-  text-transform: none;
+  text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: normal;
   white-space: pre-wrap;
